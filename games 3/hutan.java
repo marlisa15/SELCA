@@ -1,19 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class langit here.
+ * Write a description of class hutan here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class langit extends World
+public class hutan extends World
 {
 
     /**
-     * Constructor for objects of class langit.
+     * Constructor for objects of class hutan.
      * 
      */
-    public langit()
+    public hutan()
     {    
         // Buat world dengan ukuran 720x480 cells dengan cell size 1x1 pixels
         super(720, 480, 1);
