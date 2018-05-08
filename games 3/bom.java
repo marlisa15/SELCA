@@ -12,14 +12,13 @@ public class bom extends benda
      * Act - do whatever the bom wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
-    {
+   public void act() 
+   {
        setLocation(getX(), getY()+5);
        meledak();
-    }    
-    
-    public void meledak() //method meledak
-    {
+   }    
+   public void meledak() //method meledak
+   {
          if (canSee(monyet.class)) //bila melihat kelas kereta
          {
              ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(-1); //kelas Count dikurangi sebanyak 1 poin
@@ -30,6 +29,6 @@ public class bom extends benda
          {
              getWorld().removeObject(this); //remove object
          }
-    }
+   }
         
 }

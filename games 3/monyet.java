@@ -15,8 +15,8 @@ public class monyet extends benda
     public void act() 
     {
         {
-         moveMonyet(); //method moveMonkey
-         objectDisappear(); //method objectDisappear
+            moveMonyet(); //method moveMonkey
+            objectDisappear(); //method objectDisappear
         }
     }    
        
@@ -31,7 +31,7 @@ public class monyet extends benda
     }
        
     public void moveMonyet() //method moveMonkey
-     {
+    {
          if (Greenfoot.isKeyDown("left")) //bila arah panah ke kiri ditekan
          {
              move(-7); //bergerak ke -7
@@ -40,6 +40,6 @@ public class monyet extends benda
          {
              move(7); //bergerak ke 7
          }
-     }
+    }
 }
 

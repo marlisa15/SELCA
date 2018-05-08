@@ -20,11 +20,11 @@ public class pisang extends benda
     } 
     
     public void  PisangFall() //method BananaFall
-     {
+    {
          if (atWorldEdge()) //jika objek banana berada di bawah world
          {
              getWorld().removeObject(this); // remove objek banana
              Greenfoot.playSound("pisangfall.wav"); // mainkan sound bananafall.wav
          }
-     }
+    }
 }
