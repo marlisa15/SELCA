@@ -34,12 +34,11 @@ public class monyet extends benda
      {
          if (Greenfoot.isKeyDown("left")) //bila arah panah ke kiri ditekan
          {
-             move(-7); //bergerak ke -7
+             move(-6); //bergerak ke -6
          }
          if (Greenfoot.isKeyDown("right")) //bila arah panah ke kanan ditekan
          {
-             move(7); //bergerak ke 7
+             move(6); //bergerak ke 6
          }
      }
 }
-
