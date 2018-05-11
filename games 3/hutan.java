@@ -45,7 +45,7 @@ public class hutan extends World
     {
         if(Greenfoot.getRandomNumber(2) < 50)
         {
-            addObject(new pisang(), Greenfoot.getRandomNumber(519),20);
+            addObject(new pisang(), Greenfoot.getRandomNumber(529),21);
         }
     }
 
@@ -53,7 +53,7 @@ public class hutan extends World
     {
         if(Greenfoot.getRandomNumber(2) < 50)
         {
-            addObject(new bom(), Greenfoot.getRandomNumber(519),21);
+            addObject(new bom(), Greenfoot.getRandomNumber(523),22);
         }
     }
 

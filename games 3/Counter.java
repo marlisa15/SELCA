@@ -30,7 +30,7 @@ public class Counter extends Actor
          setImage(new GreenfootImage("" + totalCount, 30, Color.WHITE, Color.BLACK)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
     }
     
-    public void gameOver() //method gameOver
+    public void gameOver() //method menang
     {
          if (totalCount >= 100) //bila totalCount >= 50
          {
