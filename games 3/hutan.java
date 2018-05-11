@@ -20,6 +20,7 @@ public class hutan extends World
         pisangjatuh(); 
         siap(); 
         bomjatuh(); 
+        tamat();
         prepare();
     }
 
@@ -56,13 +57,22 @@ public class hutan extends World
             addObject(new bom(), Greenfoot.getRandomNumber(519),21);
         }
     }
-
+    
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
      */
     private void prepare()
     {
+        Tamat end =new Tamat();
+        addObject(end, 395,237);
+        end.setLocation(400,279);
+        
+        Playagain playAgain = new Playagain();
+        addObject(playAgain, 405, 329);
+        playAgain.setLocation(392,361);
+        end.setLocation(360,290);
+        playAgain.setLocation(392, 361);
     }
 }
 
