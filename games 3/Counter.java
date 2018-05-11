@@ -16,11 +16,13 @@ public class Counter extends Actor
     private int totalCount = 0; // Counter default awal = 0
     public void act() //method act 
     {
-       gameOver(); //method gameOver
+        gameOver();//method gameOver
+
     }
     
     public Counter() //kelas Counter
     {
+<<<<<<< HEAD
         setImage(new GreenfootImage("0", 30, Color.WHITE, Color.BLACK)); //membuat tampilan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
     }
     
@@ -28,15 +30,32 @@ public class Counter extends Actor
     {
         totalCount += hitung;
         setImage(new GreenfootImage("" + totalCount, 30, Color.WHITE, Color.BLACK)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+=======
+         setImage(new GreenfootImage("0", 30, Color.WHITE, Color.BLACK)); //membuat tampilan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+    }
+    public void Counting (int hitung) // method Counting
+    {
+         totalCount += hitung;
+         setImage(new GreenfootImage("" + totalCount, 30, Color.WHITE, Color.BLACK)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+>>>>>>> 87e4a79a0621e26212920cd80dcd23a960378a16
     }
     
     public void gameOver() //method gameOver
     {
+<<<<<<< HEAD
         if (totalCount >= 100) //bila totalCount >= 50
         {
             Greenfoot.stop();  // stop permainan
             Greenfoot.playSound("hore.wav"); //mainkan sound hore.wav
             System.out.println("CONGRATULATION WON! Click RESET to play again"); //tampilkan tulisan ini
         }
+=======
+         if (totalCount >= 100) //bila totalCount >= 50
+         {
+             Greenfoot.stop();  // stop permainan
+             Greenfoot.playSound("hore.wav"); //mainkan sound hore.wav
+             System.out.println("CONGRATULATION WON! Click RESET to play again"); //tampilkan tulisan ini
+         }
+>>>>>>> 87e4a79a0621e26212920cd80dcd23a960378a16
     }
  }

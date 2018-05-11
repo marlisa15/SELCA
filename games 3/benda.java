@@ -21,24 +21,24 @@ public class benda extends Actor
          return true;
          else
          return false;
-     }
+    }
     
      /**
      * true bila kita dapat melihat objek 'clss' class dari Object
      * false bila tidak ada object
      */
     public boolean canSee(Class clss)
-     {
+    {
          Actor actor = getOneObjectAtOffset(0, 0, clss);
          return actor != null;
-     }  
+    }  
     
     /**
      * Method untuk memakan objek dari kelas 'clss'. Method 'eat' akan dilakukan bila
      * objek yang dimaksud ada. Selain objek tersebut, method tidak dilakukan
      */
-     public void eat(Class clss)
-     {
+    public void eat(Class clss)
+    {
          Actor actor = getOneObjectAtOffset(0, 0, clss);
          if(actor != null) 
          {
