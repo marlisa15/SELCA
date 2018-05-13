@@ -22,7 +22,7 @@ public class bom extends benda
          if (canSee(monyet.class)) //bila melihat kelas kereta
          {
              ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(-1); //kelas Count dikurangi sebanyak 1 poin
-             Greenfoot.playSound("bomb.wav"); //Mainkan sound boom.wav
+             Greenfoot.playSound("bomb.wav"); //Mainkan sound bomb.wav
          }
          
          if (atWorldEdge())  //bila objek berada di bawah world
