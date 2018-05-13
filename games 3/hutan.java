@@ -20,7 +20,7 @@ public class hutan extends World
         pisangjatuh(); 
         siap(); 
         bomjatuh(); 
-        tamat();
+        TAMAT();
         prepare();
     }
 
@@ -64,7 +64,7 @@ public class hutan extends World
      */
     private void prepare()
     {
-        Tamat end =new Tamat();
+        TAMAT end =new TAMAT();
         addObject(end, 395,237);
         end.setLocation(400,279);
         
@@ -73,6 +73,9 @@ public class hutan extends World
         playAgain.setLocation(392,361);
         end.setLocation(360,290);
         playAgain.setLocation(392, 361);
+    }
+    public void TAMAT()
+    {
     }
 }
 
