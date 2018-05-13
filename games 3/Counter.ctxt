@@ -8,5 +8,5 @@ comment2.target=Counter()
 comment3.params=hitung
 comment3.target=void\ Counting(int)
 comment4.params=
-comment4.target=void\ gameOver()
+comment4.target=void\ menang()
 numComments=5
