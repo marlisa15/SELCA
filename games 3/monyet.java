@@ -15,8 +15,8 @@ public class monyet extends benda
     public void act() 
     {
         {
-         moveMonyet(); //method moveMonkey
-         objectDisappear(); //method objectDisappear
+            moveMonyet(); //method moveMonkey
+            objectDisappear(); //method objectDisappear
         }
     }    
        
