@@ -8,7 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class hutan extends World
 {
-
+    public monyet monyet=new monyet();
+    public pisang pisang =new pisang();
+    
+    int counter=0;
     /**
      * Constructor for objects of class hutan.
      * 
@@ -19,21 +22,17 @@ public class hutan extends World
         super(720, 480, 1);
         pisangjatuh(); 
         siap(); 
-<<<<<<< HEAD
-        bomjatuh();
-=======
         bomjatuh(); 
         TAMAT();
->>>>>>> e2b327369822f2d86b9596d8e8fdea2c0f614441
         prepare();
     }
-
-    public void act() //method act
+    
+    public void act()
     {
         if (getObjects(pisang.class).isEmpty()) pisangjatuh();
         if (getObjects(bom.class).isEmpty()) bomjatuh();
     }
-
+    
     private void siap() //method prepare untuk menentukan posisi dari kelas objek masing-masing
     {
         monyet monyet = new monyet();
@@ -68,19 +67,8 @@ public class hutan extends World
      */
     private void prepare()
     {
-<<<<<<< HEAD
-=======
-        TAMAT end =new TAMAT();
-        addObject(end, 395,237);
-        end.setLocation(400,279);
-        
-        Playagain playAgain = new Playagain();
-        addObject(playAgain, 405, 329);
-        playAgain.setLocation(392,361);
-        end.setLocation(360,290);
-        playAgain.setLocation(392, 361);
->>>>>>> e2b327369822f2d86b9596d8e8fdea2c0f614441
     }
+    
     public void TAMAT()
     {
     }

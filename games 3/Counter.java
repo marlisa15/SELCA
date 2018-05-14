@@ -17,7 +17,6 @@ public class Counter extends Actor
     public void act() //method act 
     {
         menang();
-
     }
     
     public Counter() //kelas Counter
@@ -39,6 +38,5 @@ public class Counter extends Actor
             Greenfoot.playSound("hore.wav"); //mainkan sound hore.wav
             System.out.println("CONGRATULATION WON! Click RESET to play again"); //tampilkan tulisan ini
         }
-
     }
  }
