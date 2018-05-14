@@ -41,4 +41,9 @@ public class monyet extends benda
              move(7); //bergerak ke 7
          }
      }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> e2b327369822f2d86b9596d8e8fdea2c0f614441

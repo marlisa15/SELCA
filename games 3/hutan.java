@@ -19,7 +19,12 @@ public class hutan extends World
         super(720, 480, 1);
         pisangjatuh(); 
         siap(); 
+<<<<<<< HEAD
         bomjatuh();
+=======
+        bomjatuh(); 
+        TAMAT();
+>>>>>>> e2b327369822f2d86b9596d8e8fdea2c0f614441
         prepare();
     }
 
@@ -45,7 +50,7 @@ public class hutan extends World
     {
         if(Greenfoot.getRandomNumber(2) < 50)
         {
-            addObject(new pisang(), Greenfoot.getRandomNumber(519),20);
+            addObject(new pisang(), Greenfoot.getRandomNumber(529),21);
         }
     }
 
@@ -53,7 +58,7 @@ public class hutan extends World
     {
         if(Greenfoot.getRandomNumber(2) < 50)
         {
-            addObject(new bom(), Greenfoot.getRandomNumber(519),21);
+            addObject(new bom(), Greenfoot.getRandomNumber(523),22);
         }
     }
     
@@ -62,6 +67,21 @@ public class hutan extends World
      * That is: create the initial objects and add them to the world.
      */
     private void prepare()
+    {
+<<<<<<< HEAD
+=======
+        TAMAT end =new TAMAT();
+        addObject(end, 395,237);
+        end.setLocation(400,279);
+        
+        Playagain playAgain = new Playagain();
+        addObject(playAgain, 405, 329);
+        playAgain.setLocation(392,361);
+        end.setLocation(360,290);
+        playAgain.setLocation(392, 361);
+>>>>>>> e2b327369822f2d86b9596d8e8fdea2c0f614441
+    }
+    public void TAMAT()
     {
     }
 }

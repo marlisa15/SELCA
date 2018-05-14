@@ -16,7 +16,7 @@ public class pisang extends benda
     public void act() 
     {
         setLocation(getX(), getY()+6); //posisi objek banana, kecepatan banana = +6
-        PisangFall(); //lakukan method BananaFall
+        PisangFall(); //lakukan method pisangFall
     } 
     
     public void  PisangFall() //method BananaFall
@@ -24,7 +24,7 @@ public class pisang extends benda
          if (atWorldEdge()) //jika objek banana berada di bawah world
          {
              getWorld().removeObject(this); // remove objek banana
-             Greenfoot.playSound("pisangfall.wav"); // mainkan sound bananafall.wav
+             Greenfoot.playSound("pisangfall.wav"); // mainkan sound pisangfall.wav
          }
     }
 }

@@ -14,7 +14,7 @@ public class bom extends benda
      */
    public void act() 
    {
-       setLocation(getX(), getY()+5);
+       setLocation(getX(), getY()+6);
        meledak();
    }    
    public void meledak() //method meledak
