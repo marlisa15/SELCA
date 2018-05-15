@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Tue May 15 11:00:44 ICT 2018
+#Tue May 15 11:23:11 ICT 2018
 editor.fx.0.height=739
 target2.width=80
 target8.name=monyet
@@ -65,7 +65,7 @@ dependency7.type=UsesDependency
 version=3.0.0
 editor.fx.0.y=-32000
 editor.fx.0.x=-32000
-class.Menang.image=smiley2.png
+class.Menang.image=win.png
 dependency6.to=bom
 target2.showInterface=false
 dependency1.from=bom
@@ -115,7 +115,7 @@ class.Menang.superclass=greenfoot.Actor
 dependency6.from=hutan
 project.charset=UTF-8
 target3.showInterface=false
-class.monyet.image=yemot.png
+class.monyet.image=monyet.png
 target3.name=Menang
 target6.showInterface=false
 target3.typeParameters=
