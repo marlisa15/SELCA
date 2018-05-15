@@ -23,7 +23,6 @@ public class hutan extends World
         pisangjatuh(); 
         siap(); 
         bomjatuh(); 
-        TAMAT();
         prepare();
     }
     
@@ -66,10 +65,6 @@ public class hutan extends World
      * That is: create the initial objects and add them to the world.
      */
     private void prepare()
-    {
-    }
-    
-    public void TAMAT()
     {
     }
 }

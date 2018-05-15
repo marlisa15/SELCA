@@ -30,5 +30,4 @@ public class bom extends benda
              getWorld().removeObject(this); //remove object
          }
    }
-        
 }

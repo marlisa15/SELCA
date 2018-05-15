@@ -36,7 +36,8 @@ public class Counter extends Actor
         {
             Greenfoot.stop();  // stop permainan
             Greenfoot.playSound("hore.wav"); //mainkan sound hore.wav
-            System.out.println("CONGRATULATION WON! Click RESET to play again"); //tampilkan tulisan ini
+            getWorld().addObject(new Menang(),getWorld().getWidth()/2,getWorld().getHeight()/2);
+            Greenfoot.stop(); //tampilkan tulisan ini
         }
     }
  }

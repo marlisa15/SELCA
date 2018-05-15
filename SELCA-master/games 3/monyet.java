@@ -18,8 +18,13 @@ public class monyet extends benda
             moveMonyet(); //method moveMonkey
             objectDisappear(); //method objectDisappear
         }
-    }    
-       
+        
+        if (getOneIntersectingObject(bom.class)!=null){
+            getWorld().addObject(new Tamat(),getWorld().getWidth()/2,getWorld().getHeight()/2);
+            Greenfoot.stop();
+        }
+    }
+        
     public void objectDisappear() //method objectDisappear
     {
          if (canSee(pisang.class)) //bila melihat kelas objek banana
