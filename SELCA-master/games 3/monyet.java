@@ -22,6 +22,7 @@ public class monyet extends benda
         if (getOneIntersectingObject(bom.class)!=null){
             getWorld().addObject(new Tamat(),getWorld().getWidth()/2,getWorld().getHeight()/2);
             Greenfoot.stop();
+            Greenfoot.playSound("meledak.wav");
         }
     }
         
@@ -31,7 +32,7 @@ public class monyet extends benda
          {
              eat(pisang.class); //eat kelas objek banana
              ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(10); // kelas counter ditambah sebanyak 10 poin
-             Greenfoot.playSound("score.wav"); // mainkan sound score.wav
+             Greenfoot.playSound("eat.wav"); // mainkan sound score.wav
          }
     }
        

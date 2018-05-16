@@ -8,7 +8,11 @@ class.Menang.superclass=greenfoot.Actor
 class.Playagain.superclass=greenfoot.Actor
 class.TAMAT.image=skull.png
 class.TAMAT.superclass=greenfoot.Actor
+<<<<<<< HEAD
 class.Tamat.image=gameover.png
+=======
+class.Tamat.image=gameover_zpse663rlsp.png
+>>>>>>> 8376ba79ae30681455fe6d70144e069213aad926
 class.Tamat.superclass=greenfoot.Actor
 class.benda.superclass=greenfoot.Actor
 class.bom.image=bomb.png
@@ -65,10 +69,17 @@ dependency8.type=UsesDependency
 dependency9.from=hutan
 dependency9.to=Playagain
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=275
+editor.fx.0.y=-4
+>>>>>>> 8376ba79ae30681455fe6d70144e069213aad926
 mainWindow.height=744
 mainWindow.width=1382
 mainWindow.x=-8
