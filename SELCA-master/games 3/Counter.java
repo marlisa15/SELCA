@@ -21,7 +21,7 @@ public class Counter extends Actor
     
     public Counter() //kelas Counter
     {
-        setImage(new GreenfootImage("0", 30, Color.WHITE, Color.BLACK)); //membuat tampilan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+        setImage(new GreenfootImage("0", 30, Color.WHITE, Color.BLACK)); //membuat tampilancounter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
     }
    
     public void Counting (int hitung) // method Counting
@@ -38,6 +38,7 @@ public class Counter extends Actor
             Greenfoot.playSound("menang.wav"); //mainkan sound hore.wav
             getWorld().addObject(new Menang(),getWorld().getWidth()/2,getWorld().getHeight()/2);
             Greenfoot.stop(); //tampilkan tulisan ini
+            
         }
     }
  }
