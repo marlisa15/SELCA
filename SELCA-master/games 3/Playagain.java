@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Playagain extends Actor
+public class Playagain extends Menang
 {
     /**
      * Act - do whatever the Playagain wants to do. This method is called whenever
@@ -14,6 +14,9 @@ public class Playagain extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        if (Greenfoot.mouseClicked(this))
+        {
+            Greenfoot.setWorld(new hutan());
+        }
     }    
 }
