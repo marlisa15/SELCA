@@ -14,9 +14,13 @@ public class exit extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
+       Greenfoot.setWorld(new hutan());
+=======
         if (Greenfoot.mouseClicked(this))
         {
             Greenfoot.setWorld(new Menu());
         }
+>>>>>>> e16e270402aaa69edbc53ce2753e556aaca029f6
     }    
 }
