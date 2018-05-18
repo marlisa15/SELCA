@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class playagain extends Actor
+public class Playagain extends Actor
 {
     /**
      * Act - do whatever the playagain wants to do. This method is called whenever
@@ -14,9 +14,9 @@ public class playagain extends Actor
      */
     public void act() 
     {
-         if (Greenfoot.mouseClicked(this))
+        if (Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(new hutan());
+            Greenfoot.setWorld(new Menu());
         }
     }    
 }
