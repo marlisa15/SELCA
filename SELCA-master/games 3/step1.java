@@ -1,24 +1,23 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Menu here.
+ * Write a description of class step1 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Menu extends World
+public class step1 extends World
 {
 
     /**
-     * Constructor for objects of class Menu.
+     * Constructor for objects of class step1.
      * 
      */
-    public Menu()
+    public step1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1);
+        super(600, 400, 1); 
         
-        addObject (new mulai(), 515,350);
-        addObject (new exit(), 97,350);
+        addObject (new next(), 525,60);
     }
 }
