@@ -16,7 +16,7 @@ public class Playagain extends Actor
     {
         if (Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(new Menu());
+            Greenfoot.setWorld(new menu());
         }
     }    
 }

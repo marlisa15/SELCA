@@ -17,7 +17,7 @@ public class exit extends Actor
        Greenfoot.setWorld(new hutan());
         if (Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(new Menu());
+            Greenfoot.setWorld(new menu());
         }
     }    
 }

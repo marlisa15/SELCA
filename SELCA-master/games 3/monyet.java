@@ -24,7 +24,6 @@ public class monyet extends benda
             Greenfoot.stop();
             Greenfoot.playSound("meledak.wav");
             getWorld().addObject(new Playagain(),getWorld().getWidth()/2,getWorld().getHeight()/5);
-            
         }
     }
         
