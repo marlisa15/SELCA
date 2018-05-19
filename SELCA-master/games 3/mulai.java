@@ -16,7 +16,7 @@ public class mulai extends Actor
     {
         if (Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(new hutan());
+            Greenfoot.setWorld(new step1());
         }
     }    
 }
