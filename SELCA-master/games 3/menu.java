@@ -19,6 +19,5 @@ public class Menu extends World
         super(600, 400, 1);
         
         addObject (new mulai(), 515,350);
-        addObject (new exit(), 97,350);
     }
 }
