@@ -19,12 +19,6 @@ public class bom extends benda
    }    
    public void meledak() //method meledak
    {
-         if (canSee(monyet.class)) //bila melihat kelas monyet
-         {
-             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(-1); //kelas Count dikurangi sebanyak 1 poin
-             Greenfoot.playSound("bomb.wav"); //Mainkan sound bomb.wav
-         }
-         
          if (atWorldEdge())  //bila objek berada di bawah world
          {
              getWorld().removeObject(this); //remove object

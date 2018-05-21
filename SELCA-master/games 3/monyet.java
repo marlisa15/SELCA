@@ -21,9 +21,10 @@ public class monyet extends benda
         
         if (getOneIntersectingObject(bom.class)!=null){
             getWorld().addObject(new Tamat(),getWorld().getWidth()/2,getWorld().getHeight()/2);
-            Greenfoot.stop();
             Greenfoot.playSound("meledak.wav");
-            getWorld().addObject(new Playagain(),getWorld().getWidth()/2,getWorld().getHeight()/5);
+            Greenfoot.stop();
+            
+           
         }
     }
         

@@ -12,7 +12,7 @@ public class pisang extends benda
      * Act - do whatever the lemon wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    private int timer=0;
+    
     public void act() 
     {
         setLocation(getX(), getY()+6); //posisi objek banana, kecepatan banana = +6

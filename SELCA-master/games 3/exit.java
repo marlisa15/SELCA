@@ -16,7 +16,7 @@ public class exit extends Actor
     {
         if (Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(new Menu());
+           System.exit(10);
         }
     }    
 }

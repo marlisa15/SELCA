@@ -20,7 +20,6 @@ public class hutan extends World
     {    
         // Buat world dengan ukuran 720x480 cells dengan cell size 1x1 pixels
         super(720, 480, 1);
-        addObject (new refresh(), 660,430);
         pisangjatuh(); 
         siap(); 
         bomjatuh(); 
